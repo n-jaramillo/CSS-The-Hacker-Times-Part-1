@@ -15,9 +15,14 @@ Navigation links: #777
 All other text (headers, body, etc): default (black)
 */
 
+body {
+    background-color: #eee;
+}
+
 .newspaper-container {
+    background-color: white;
     width: 700px;
-    border-radius: 25%;
+    border-radius: 25px;
     /*box-shadow*/
     /*padding*/
 }
@@ -33,14 +38,22 @@ nav {
     border-bottom: 1px solid #eee;
 }
 
-ul {
+nav a {
+    color: #777;
+}
+
+nav ul {
     list-style-type: none;
     /* remove left margin */
 }
 
-ul li {
+nav ul li {
     display: inline-block;
     /* padding */
+}
+
+main h2 {
+    color: #dd3232;
 }
 
 /* front-page article 
