@@ -24,6 +24,7 @@ body {
     width: 700px;
     border-radius: 25px;
     margin: auto;
+    box-shadow: 1px 1px 5px #ddd;
     /*box-shadow*/
     /*padding*/
 }
