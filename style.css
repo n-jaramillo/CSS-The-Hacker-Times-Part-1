@@ -24,10 +24,13 @@ All other text (headers, body, etc): default (black)
 
 header {
     /* center title */
+    text-align: center;
 }
 
 nav {
     /* border top and bottom */
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
 }
 
 ul {
