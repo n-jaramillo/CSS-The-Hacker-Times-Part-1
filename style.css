@@ -39,6 +39,7 @@ nav {
 
 nav a {
     color: #777;
+    text-decoration: none;
 }
 
 nav ul {
@@ -51,7 +52,7 @@ nav ul li {
     /* padding */
 }
 
-main h2 {
+main h5 {
     color: #dd3232;
 }
 
