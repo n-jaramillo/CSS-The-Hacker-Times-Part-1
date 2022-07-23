@@ -23,17 +23,16 @@ body {
     background-color: white;
     width: 700px;
     border-radius: 25px;
+    margin: auto;
     /*box-shadow*/
     /*padding*/
 }
 
 header {
-    /* center title */
     text-align: center;
 }
 
 nav {
-    /* border top and bottom */
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
 }
@@ -44,7 +43,7 @@ nav a {
 
 nav ul {
     list-style-type: none;
-    /* remove left margin */
+    margin-left: 0;
 }
 
 nav ul li {
@@ -64,3 +63,9 @@ image flush with article text
 inline block and width for side by side
 center in container
 top border */
+
+.more-articles section{
+    border-top: 1px solid #eee;
+    display: inline-block;
+    width: 49%;
+}
