@@ -69,9 +69,17 @@ image flush with article text
 inline block and width for side by side
 center in container
 top border */
+main img{
+    width: 100%;
+}
+
+main {
+    text-align: justify;
+}
 
 .more-articles section{
     border-top: 1px solid #eee;
     display: inline-block;
     width: 49%;
+    text-align: justify;
 }
