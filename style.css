@@ -17,6 +17,7 @@ All other text (headers, body, etc): default (black)
 
 body {
     background-color: #eee;
+    font-family: Source Sans Pro;
 }
 
 .newspaper-container {
@@ -31,6 +32,7 @@ body {
 
 header h1 {
     text-align: center;
+    font-family: Abril FatFace;
 }
 
 header .date{
@@ -61,14 +63,6 @@ main h5 {
     color: #dd3232;
 }
 
-/* front-page article 
-image flush with article text
-*/
-
-/* more articles
-inline block and width for side by side
-center in container
-top border */
 main img{
     width: 100%;
 }
@@ -82,4 +76,8 @@ main {
     display: inline-block;
     width: 49%;
     text-align: justify;
+}
+
+h2, h4 {
+    font-family: Roboto Slab;
 }
