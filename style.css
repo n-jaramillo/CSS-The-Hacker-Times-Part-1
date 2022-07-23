@@ -1,1 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+/* Fonts
+Body font: Source Sans Pro
+Header font: Abril Fatface
+Article title font: Roboto Slab
+*/
+
+/* Colors
+Body background and borders: #eee
+Newspaper background: white
+Newspaper box-shadow: #ddd
+Front-page article text: #dd3232
+Navigation links: #777
+All other text (headers, body, etc): default (black)
+*/
+
+.newspaper-container {
+    width: 700px;
+    border-radius: 25%;
+    /*box-shadow*/
+    /*padding*/
+}
+
+header {
+    /* center title */
+}
+
+nav {
+    /* border top and bottom */
+}
+
+ul {
+    list-style-type: none;
+    /* remove left margin */
+}
+
+ul li {
+    display: inline-block;
+    /* padding */
+}
+
+/* front-page article 
+image flush with article text
+*/
+
+/* more articles
+inline block and width for side by side
+center in container
+top border */
