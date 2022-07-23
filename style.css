@@ -22,15 +22,19 @@ body {
 .newspaper-container {
     background-color: white;
     width: 700px;
-    border-radius: 25px;
+    border-radius: 10px;
     margin: auto;
     box-shadow: 1px 1px 5px #ddd;
     /*box-shadow*/
     /*padding*/
 }
 
-header {
+header h1 {
     text-align: center;
+}
+
+header .date{
+    padding: 15px;
 }
 
 nav {
