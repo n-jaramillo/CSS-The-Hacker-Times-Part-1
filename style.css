@@ -69,22 +69,32 @@ main {
     text-align: justify;
 }
 
-.more-articles section{
+.more-articles, .even-more-articles {
     border-top: 1px solid #eee;
+}
+
+.more-articles section{
     display: inline-block;
     width: 45%;
     text-align: justify;
     padding: 15px;
 }
 
-.more-articles section img {
+.even-more-articles section{
+    display: inline-block;
+    width: 30%;
+    text-align: justify;
+    padding: 10px;
+}
+
+section img {
     width: 100%;
 }
 
-h2, h4 {
+h2, h4, h5 {
     font-family: Roboto Slab;
 }
 
-h5 {
+main h5 {
     font-family: Abril Fatface;
 }
